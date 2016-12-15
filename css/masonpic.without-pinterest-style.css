@@ -1,0 +1,81 @@
+/*
+ *ROM-PacMe CSS: MasonPic (Without Pinterest Style)
+ *(c) 2015 Rafael PacMe <rafy.pachecomendez@gmail.com> 	
+*/
+
+.imagenes {
+	margin: 2.5%;
+	width: 95%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: stretch;
+}
+ 
+.elemento {
+	margin: 5px auto;
+	position: relative;
+ }
+ 
+.elemento p {
+	padding:10px;
+	font-size:25px;
+    text-align: center;
+    color: white;
+}
+
+.elemento img {
+ -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.elemento img:hover {
+-moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.elemento2 {
+	margin: 5px auto;
+	position: relative;
+ }
+
+.elemento2 img {
+}
+
+.elemento3 {
+	margin: 5px auto;
+	position: relative;
+ }
+ 
+.elemento3 p {
+	padding:10px;
+	font-size:25px;
+    text-align: center;
+    color: white;
+}
+
+.elemento3 img {
+ -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.elemento3 img:hover {
+-moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+@media all and (max-width: 500px) {
+    .imagenes {
+    	margin: 0%;
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+	}
+
+	.elemento img {
+	}
+}
