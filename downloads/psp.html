@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link rel="stylesheet" href="../css/estilos.css">
     <link rel="stylesheet" href="../css/dinamixbar.css">
+	<link rel="stylesheet" href="../css/json.css">
 </head>
 <body>
 <header>
@@ -16,11 +17,25 @@
 				<a href="#"></span>Downloads / Descargas</span></a>
 				<ul class="children">
 					<li><a href="#">PSP Edition.</a></li>
-					<li><a href="#">PS Vita Edition.</a></li>
+					<li><a href="psv.html">PS Vita Edition.</a></li>
 				</ul>
 			</li>
 		</ul>
 	</nav>
 </header>
+
+<main ng-app="MyApp" ng-controller="MyController">
+  <h1>PSP Downloads.</h1>
+  <section>
+    
+    <json-table json-data="https://windows10ps.github.io/windows_ota_updater_web/PSPData.js"/>
+        
+  </section>
+</main>
+
 </body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.2/angular.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.6.1/lodash.min.js"></script>
+<script src="../js/json.js"></script>
 </html>

@@ -1,0 +1,27 @@
+.jsontable {
+  border-collapse: collapse;
+  margin-left: 50px;
+
+}
+.jsontable__header th {
+  margin: 50px;
+  color: white;
+}
+h1 {
+    color: white;
+    text-align: center;
+}
+.jsontable__avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+}
+.jsontable__row:nth-child(even) {
+  margin: 0px;
+  background-color: grey;
+  color: white;
+}
+.jsontable__body td {
+  padding: 5px;
+  color: white;
+}
