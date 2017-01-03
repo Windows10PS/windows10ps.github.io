@@ -10,6 +10,7 @@
 h1 {
     color: white;
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif !important;
 }
 .jsontable__avatar {
   width: 40px;
