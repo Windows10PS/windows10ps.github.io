@@ -51,6 +51,10 @@
 .rom-pacme h3 {
   margin: 0 0 10px;
   font-weight: 400;
+  list-style: none;
+}
+.rom-pacme h3 a {
+  color: cyan;
 }
 .rom-pacme h3 span {
   display: flex;
