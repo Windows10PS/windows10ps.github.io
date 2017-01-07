@@ -22,5 +22,25 @@
 		</ul>
 	</nav>
 </header>
+
+<main ng-app="MyApp" ng-controller="MyController">
+	<br>
+	<br>
+	<br>
+  <h1>PS Vita Downloads.</h1>
+  	<br>
+	<br>
+	<br>
+  <section>
+    
+    <json-table json-data="http://www.windows10ps-api.hol.es/PSVitaData.js"/>
+        
+  </section>
+</main>
+
 </body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.2/angular.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.6.1/lodash.min.js"></script>
+<script src="../js/json.js"></script>
 </html>
