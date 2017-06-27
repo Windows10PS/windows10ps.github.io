@@ -13,6 +13,7 @@
   text-align: center;
   line-height: 1.4em;
   background-color: #141414;
+  align-items: stretch;
 }
 .rom-pacme * {
   -webkit-box-sizing: border-box;
